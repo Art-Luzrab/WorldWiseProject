@@ -3,6 +3,7 @@ import PageNav from "../Components/PageNav";
 import { useAuth } from "../contexts/FakeAuthContext";
 import styles from "./Login.module.css";
 import { useEffect, useState } from "react";
+import Button from "../Components/Button";
 
 export default function Login() {
   const { login, isAuthenticated } = useAuth();
@@ -12,13 +13,13 @@ export default function Login() {
   const [email, setEmail] = useState("jack@example.com");
   const [password, setPassword] = useState("qwerty");
 
-  function handleLogin(e) {
+  function handleSubmit(e) {
     e.preventDefault();
-    login(email, password);
+    if (email && password) login(email, password);
   }
   useEffect(
     function () {
-      if (isAuthenticated === true) navigate("/app");
+      if (isAuthenticated === true) navigate("/app", { replace: true });
     },
     [isAuthenticated, navigate]
   );
@@ -26,7 +27,7 @@ export default function Login() {
   return (
     <main className={styles.login}>
       <PageNav />
-      <form className={styles.form}>
+      <form className={styles.form} onSubmit={handleSubmit}>
         <div className={styles.row}>
           <label htmlFor="email">Email address</label>
           <input
@@ -48,7 +49,7 @@ export default function Login() {
         </div>
 
         <div>
-          <button onClick={handleLogin}>Login</button>
+          <Button type="primary">Login</Button>
         </div>
       </form>
     </main>
