@@ -35,66 +35,6 @@
         "lng": 13.376933665713324
       },
       "id": 98443197
-    },
-    {
-      "id": "6a13",
-      "cityName": "Enumclaw Plateau",
-      "country": "United States of America (the)",
-      "emoji": "🇺🇸",
-      "date": "2025-03-04T04:10:13.443Z",
-      "notes": "asdfasdf",
-      "position": {
-        "lat": "47.3226505831201",
-        "lng": "-122.20848083496095"
-      }
-    },
-    {
-      "id": "8d96",
-      "cityName": "Borriol",
-      "country": "Spain",
-      "emoji": "🇪🇸",
-      "date": "2025-03-04T04:12:44.541Z",
-      "notes": "rtwertdsfgsdrg",
-      "position": {
-        "lat": "40.03589509884803",
-        "lng": "-0.05338668823242188"
-      }
-    },
-    {
-      "id": "5713",
-      "cityName": "Township of Union",
-      "country": "United States of America (the)",
-      "emoji": "🇺🇸",
-      "date": "2025-03-04T04:15:25.473Z",
-      "notes": "dfasdf",
-      "position": {
-        "lat": "41.80407814427237",
-        "lng": "-95.40527343750001"
-      }
-    },
-    {
-      "id": "0b35",
-      "cityName": "Bayfield",
-      "country": "United States of America (the)",
-      "emoji": "🇺🇸",
-      "date": "2025-03-04T04:15:25.473Z",
-      "notes": "dfasdf",
-      "position": {
-        "lat": "37.37015718405753",
-        "lng": "-107.49023437500001"
-      }
-    },
-    {
-      "id": "2dad",
-      "cityName": "San Lorenzo",
-      "country": "Mexico",
-      "emoji": "🇲🇽",
-      "date": "2025-03-04T04:16:15.528Z",
-      "notes": "a",
-      "position": {
-        "lat": "27.916766641249065",
-        "lng": "-106.5234375"
-      }
     }
   ]
 }
